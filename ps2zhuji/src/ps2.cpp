@@ -1,6 +1,6 @@
 /* 
  *我（寂寞的欧尼酱）抄了Synaptics PS/2 TouchPad Interfacing Guide上的示例代码，
- *将示例代码和这个库合并，并做出一些更改，让它更适合arduino的使用以及符合我的习惯。
+ *将示例代码和原本的ps2库合并，并做出一些更改，让它更适合arduino的使用以及符合我的习惯。
  *ps/2协议在主机端和设备端不是完全一样，在通讯时有差别。
  *本库作为ps/2的主机端使用，用做与ps/2设备通讯。 
  *根据Synaptics PS/2 TouchPad Interfacing Guide上的描述，触控板每秒发送40个或者80个数据包，代码的数据穿输速率应该足够了。
