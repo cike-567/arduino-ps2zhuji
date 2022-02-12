@@ -5,7 +5,7 @@
  */
 #ifndef ps2zhuji
 #define ps2zhuji
-#include "arduino.h"
+#include "Arduino.h"
 
 class PS2
 {
