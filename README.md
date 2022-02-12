@@ -2,7 +2,7 @@
 &emsp;&emsp;适合arduino开发板使用的ps/2库，用于ps/2协议通讯，使用c语言编写。ps/2协议在主机端和设备端不是完全一样，在通讯时有差别。
 仓库里有一份Synaptics PS/2 TouchPad Interfacing Guide（可惜是英文的），非常适合用来学习ps/2协议和触摸板通讯。还有其他的资料若干。
 # ps2zhuji
-&emsp;&emsp;本库作为ps/2的主机端使用，用做与ps/2设备通讯。 
+&emsp;&emsp;本库作为ps/2的主机端使用，用做与ps/2设备通讯。 设备端的库在我另一个[GitHub仓库](https://github.com/cike-567/arduino-ps2shebei "前往仓库")。
 
 &emsp;&emsp;我（寂寞的欧尼酱）抄了Synaptics PS/2 TouchPad Interfacing Guide上的示例代码，将示例代码和ps2库合并，并做出一些更改，让它更适合arduino的使用以及符合我的习惯。
 
